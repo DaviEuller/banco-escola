@@ -21,7 +21,7 @@ const request = async (method, url, data = null, config = {}) => {
       requestConfig.data = data;
     }
 
-    const response = await api.request(requestConfig);
+    const response = await axios.get(`${import.meta.env.VITE_API_URL}/sua-rota`)
 
     return response.data;
   } catch (error) {
