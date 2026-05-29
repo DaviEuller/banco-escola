@@ -1,0 +1,19 @@
+.Container {
+    width: 100%;
+    max-width: 50rem; 
+    margin: 0 auto;
+    padding: 1.25rem; 
+
+ 
+    display: flex;
+    flex-direction: column; 
+    gap: 1.875rem; 
+}
+
+
+@media (max-width: 37.5rem) {
+    .container {
+        padding: 1rem;
+        gap: 1.25rem; 
+    }
+}

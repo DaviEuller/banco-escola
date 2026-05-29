@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-fundo-tela);
+    width: 100vw;
+    height: 100vh;
+    min-width: 25rem;
+}
+
+.pularLinha{
+    display:block;
+    margin-bottom:0.0rem ;
+    height: 3vh;
+}
